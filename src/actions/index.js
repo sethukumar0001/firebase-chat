@@ -18,6 +18,7 @@ export const clearUser = () => {
 
 /* Channel Actions */
 export const setCurrentChannel = channel => {
+  console.log(channel)
   return {
     type: actionTypes.SET_CURRENT_CHANNEL,
     payload: {

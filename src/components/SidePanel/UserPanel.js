@@ -42,7 +42,7 @@ class UserPanel extends Component {
           <Grid.Row style={{ padding: "1.2rem", margin: 0 }}>
             <Header inverted floated="left" as="h2">
               <Icon name="code" />
-              <Header.Content>DevChat</Header.Content>
+              <Header.Content>Chat</Header.Content>
             </Header>
           </Grid.Row>
           <Header style={{ padding: "0.25rem" }} as="h4" inverted>

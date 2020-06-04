@@ -73,6 +73,7 @@ class MessageForm extends Component {
   };
 
   uploadFile = (file, metadata) => {
+    console.log(this.state.channel)
     const pathToUpload = this.state.channel.id;
     const ref = this.props.messagesRef;
     const filePath = `chat/public/${uuidv4()}.jpg`;
