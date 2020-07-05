@@ -5,7 +5,7 @@ import { Segment, Comment } from "semantic-ui-react";
 import MessagesHeader from "./MessagesHeader";
 import MessageForm from "./MessageForm";
 import Message from "./Message";
-import ProgressBar from "./ProgressBar";
+// import ProgressBar from "./ProgressBar";
 
 class Messages extends Component {
   state = {

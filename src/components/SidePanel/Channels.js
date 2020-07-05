@@ -104,7 +104,7 @@ class Channels extends Component {
         style={{ opacity: 0.7 }}
         active={channel.id === this.state.activeChannel}
       >
-        # {channel.name}
+        @ {channel.name}
       </Menu.Item>
     ));
 

@@ -7,8 +7,7 @@ import {
   Segment,
   Button,
   Header,
-  Message,
-  Icon
+  Message
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
